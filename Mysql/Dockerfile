@@ -1,6 +1,6 @@
 FROM mysql:latest
 
-ENV MYSQL_ROOT_PASSWORD=1234
+ENV MYSQL_ROOT_PASSWORD=4321
 
 COPY student-rds-table.sql /docker-entrypoint-initdb.d/
 
